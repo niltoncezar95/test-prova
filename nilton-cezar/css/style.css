@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    height: 100%;
+    background: transparent url(../images/background.png) no-repeat top left fixed;
+    color: black;
+    background-size: 100%;
+}
+
+
+body{
+    box-shadow: border-box;
+    padding: 100px;
+    margin-top: 10px;
+	background: rgba(255,255,255,0.7);
+	min-width: 385px;
+	padding: 40px;
+	position: relative;
+	width: 50%;
+    height: 150%;
+}
+.cabecalho{
+    float:top;
+}
+.general{
+    position: absolute;
+    top:280px;
+    left: 10px;
+}
+
+
+.h1-index{
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 45%;
+    text-shadow: 0 0 0.2em;
+    position: absolute;
+	left: 250px;
+	top: 40px;	
+	
+}
+
+h1:hover span{
+    background-color : rgba(255,255,255,0.7);
+    font-size: 1.1em;
+    border-bottom: 3px solid red;
+  }
+
+
+h1::before{
+    content: '"';
+}
+
+h1::after{
+    content: '"';
+}
+.menu{
+   background: orange;
+    display: table;
+    width: 100%;
+}
+.menu ul{
+    list-style: none; 
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    font: 13px verdana, arial;
+    color: #000;
+    background: orange;
+    text-decoration: none;
+    float: left;
+    padding: 5px 10px;
+    margin-left: 1px;
+}
+.menu ul li a:hover{
+    color:orange;
+    background: #000;
+}
+
+.h2-index{
+    margin-top: 100px;
+	padding: 100px;
+    position: absolute;
+	width: 50%;
+    height: 90%;
+
+}
+
+.anchors{
+    padding: 2px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 3%;
+}
+.conten{
+    
+}
+.quote {
+   width: 300px;
+   height: 30px;
+   padding: 20px;
+   border: 1px solid #000;
+   background: url(images/open-quotes.png) left no-repeat,
+               url(images/open-quotes.png) right no-repeat;
+   background-size: 35px;
+   text-align: center;
+   
+}
+
+li:hover{
+   background-color: gray;
+   width: 158px;
+   
+}
+
+.list-yellow{
+    background-color: gainsboro;
+    width: 15%;
+}
+
+table {
+    width: 20%;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table tr td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/* picture */
+
+img {
+	border: 3px solid #ccc;
+  	box-shadow: 3px 3px  1.9em blue;
+	height: 200px;
+	position: absolute;
+	left: 28px;
+	top: 40px;	
+	width: 200px;	
+}
+
+

@@ -1,0 +1,25 @@
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(images/navigation-sprites.svg) no-repeat;
+}
+
+.email {
+    background-position: 0 -60px;
+    transition: background .2s;
+}
+
+.email:hover {
+    background-position: -60px -60px;
+}
+
+.meter {
+    background-position:  0 0;
+}
+
+.meter:hover {
+    background-position:  -60px 0;
+}

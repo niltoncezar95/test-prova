@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(135deg, #ff70b9 0%,#ffafd8 92%);
+    height: 100%;
+}
+
+body {
+    background-color: linear-gradient(135deg, #ff70b9 0%,#ffafd8 92%);
+    background-image: url(images/skull-female.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 100%;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 1px #000;
+}

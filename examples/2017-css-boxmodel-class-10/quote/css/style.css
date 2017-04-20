@@ -1,0 +1,10 @@
+.quote {
+    padding: 10px;
+    background: 
+        url(images/open-quotes.png) left no-repeat, 
+        url(images/close-quotes.png) right no-repeat;
+    background-size: 100px 100px;
+    font-size: 2em;
+    text-align: center;
+    width: 20em;
+}
